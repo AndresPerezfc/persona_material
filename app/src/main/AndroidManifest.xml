@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".detallePersona"></activity>
+        <activity android:name=".DetallePersona"></activity>
         <activity android:name=".AgregarPersona" />
         <activity
             android:name=".MainActivity"
