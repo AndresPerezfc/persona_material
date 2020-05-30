@@ -16,7 +16,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imgFoto"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 app:srcCompat="@drawable/images" />
