@@ -46,7 +46,7 @@ public class AgregarPersona extends AppCompatActivity {
         InputMethodManager imp = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         ced = cedula.getText().toString();
         nom = nombre.getText().toString();
-        apell = nombre.getText().toString();
+        apell = apellido.getText().toString();
         foto = foto_aleatoria();
         persona = new Persona(ced, nom, apell, foto);
         persona.guardar();
