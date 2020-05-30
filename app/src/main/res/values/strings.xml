@@ -17,4 +17,5 @@
     <string name="btn_limpiar">Limpiar</string>
     <string name="mensaje_guardar">Persona agregada exitosamente</string>
     <string name="titulo_detalle">Detalle persona</string>
+    <string name="etiqueta_boton_eliminar">Eliminar</string>
 </resources>

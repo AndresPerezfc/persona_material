@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements AdaptadorPersona.
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
         FloatingActionButton fab;
         RecyclerView lstPersonas;
         LinearLayoutManager llm;
@@ -47,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements AdaptadorPersona.
         Intent i;
         i = new Intent(MainActivity.this, AgregarPersona.class);
         startActivity(i);
-        finish();
+        //finish();
     }
 
     @Override
