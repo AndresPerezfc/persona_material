@@ -10,7 +10,20 @@ public class Datos {
         personas.add(p);
     }
 
+    public static void eliminar (Persona p){
+        for (int i = 0; i < personas.size(); i++){
+            if(personas.get(i).getCedula().equals(p.getCedula())){
+                personas.remove(i);
+                break;
+            }
+
+        }
+        personas.remove(p);
+    }
+
     public static ArrayList<Persona> obtener(){
         return personas;
     }
+
+
 }

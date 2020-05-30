@@ -35,6 +35,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/fab_add"
             fab:fab_size="mini"
+            android:onClick="eliminar"
             fab:fab_label="@string/etiqueta_boton_eliminar" />
 
     </com.github.clans.fab.FloatingActionMenu>
