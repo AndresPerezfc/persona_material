@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/titulo_agregar"
-        android:textSize="24"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <EditText
@@ -51,6 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="guardar"
             android:text="@string/btn_guardar" />
 
         <Button
@@ -59,6 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar"
             android:text="@string/btn_limpiar" />
     </LinearLayout>
 </LinearLayout>
