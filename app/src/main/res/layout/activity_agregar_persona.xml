@@ -16,6 +16,14 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
+    <ImageView
+        android:id="@+id/imgFotoSeleccionada"
+        android:layout_width="204dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="seleccionarFoto"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
     <EditText
         android:id="@+id/txtCedula"
         android:layout_width="match_parent"
